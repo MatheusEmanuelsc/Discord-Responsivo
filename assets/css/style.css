@@ -1,0 +1,81 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+
+
+.header{
+    width: 100%;
+    background: url(/assests/img/Header\ Background.png);
+    color: white;
+    background-size: contain;
+
+}
+.introducao{
+
+    padding: 3rem 2rem;
+}
+.introducao__titulo{
+
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin: 1rem 0;
+    text-align: left;
+    
+}
+
+.introducao__btn{
+    padding: 1rem;
+    width: 100%;
+    border-radius: 4rem;
+    border: none;
+    margin-top: 1rem;
+}
+
+.introducao__btn--modificado{
+
+    background-color: black;
+    color: white;
+    padding: 0.8rem 1rem;
+}
+
+.main .card:nth-child(even){
+
+    background-color:  #F6F6F6;
+    
+}
+.card{
+    display: grid;
+    gap: 1rem;
+    
+}
+
+.card__block{
+    width: 22rem;
+    margin: 1rem auto;
+}
+.img{
+    max-width: 100%;
+    display: block;
+    margin: 1rem auto;
+}
+
+.titulo{
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 2rem 0px;
+}
+
+.titulo--modificado{
+    font-family: 'Luckiest Guy', cursive;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+
+.footer{
+    background-color: #23272A;
+    padding: 3rem;
+}
+
+
